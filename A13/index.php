@@ -9,7 +9,7 @@
     );
 
     //variavel para armazenar a query
-    $sql = "Select  * From Alunos";
+    $sql = "Select  * From alunos";
     $resultado = $conexao->query($sql);
 
     echo $resultado ->num_rows;

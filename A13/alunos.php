@@ -31,7 +31,7 @@
                     die("Erro de conexão: " . $conexao->connect_error);
                 }
 
-                $sql = "SELECT * FROM Alunos";
+                $sql = "SELECT * FROM alunos";
                 $resultado = $conexao->query($sql);
 
                 if ($resultado->num_rows > 0) {
